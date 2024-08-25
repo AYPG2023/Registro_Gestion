@@ -11,8 +11,8 @@ public class Main {
     	Interface  empleadoService = new EmpleadoServiceImpl();
 
         // Registrar empleados
-        Empleado emp1 = new Empleado(1, "Juan Pérez", "Desarrollador", 5000, LocalDate.of(2020, 1, 15), "IT");
-        Empleado emp2 = new Empleado(2, "Ana Gómez", "Gerente", 10000, LocalDate.of(2018, 3, 22), "Administración");
+        Empleado emp1 = new Empleado(1, "Ana luz ", "Arquitecta", 25000, LocalDate.of(2020, 1, 15), "Construccion");
+        Empleado emp2 = new Empleado(2, "Jenner Perez", "Ingeniero", 10000, LocalDate.of(2018, 3, 22), "Informatica");
         
         empleadoService.registrarEmpleado(emp1);
         empleadoService.registrarEmpleado(emp2);
